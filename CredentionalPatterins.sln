@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SingletonDesignPattern", "SingletonDesignPattern", "{E685055B-F1CD-472F-ADEE-722571E84A61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{2AB9A21D-E9FF-494F-855C-DE729054A1D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{5BA32497-5ED3-451B-9ACD-5D546E71EAD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AB9A21D-E9FF-494F-855C-DE729054A1D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AB9A21D-E9FF-494F-855C-DE729054A1D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AB9A21D-E9FF-494F-855C-DE729054A1D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AB9A21D-E9FF-494F-855C-DE729054A1D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BA32497-5ED3-451B-9ACD-5D546E71EAD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BA32497-5ED3-451B-9ACD-5D546E71EAD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BA32497-5ED3-451B-9ACD-5D546E71EAD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BA32497-5ED3-451B-9ACD-5D546E71EAD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2AB9A21D-E9FF-494F-855C-DE729054A1D1} = {E685055B-F1CD-472F-ADEE-722571E84A61}
+		{5BA32497-5ED3-451B-9ACD-5D546E71EAD0} = {E685055B-F1CD-472F-ADEE-722571E84A61}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45ADF0F2-4EC9-4C07-9F7E-88E96B03BBA9}
+	EndGlobalSection
+EndGlobal
