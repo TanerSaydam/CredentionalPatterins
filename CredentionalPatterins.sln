@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{5BA32497-5ED3-451B-9ACD-5D546E71EAD0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppAsync", "ConsoleAppAsync\ConsoleAppAsync.csproj", "{9372E6FF-7546-47B2-8953-BBB1F4BB878B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{5BA32497-5ED3-451B-9ACD-5D546E71EAD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BA32497-5ED3-451B-9ACD-5D546E71EAD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BA32497-5ED3-451B-9ACD-5D546E71EAD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9372E6FF-7546-47B2-8953-BBB1F4BB878B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9372E6FF-7546-47B2-8953-BBB1F4BB878B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9372E6FF-7546-47B2-8953-BBB1F4BB878B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9372E6FF-7546-47B2-8953-BBB1F4BB878B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{2AB9A21D-E9FF-494F-855C-DE729054A1D1} = {E685055B-F1CD-472F-ADEE-722571E84A61}
 		{5BA32497-5ED3-451B-9ACD-5D546E71EAD0} = {E685055B-F1CD-472F-ADEE-722571E84A61}
+		{9372E6FF-7546-47B2-8953-BBB1F4BB878B} = {E685055B-F1CD-472F-ADEE-722571E84A61}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {45ADF0F2-4EC9-4C07-9F7E-88E96B03BBA9}
