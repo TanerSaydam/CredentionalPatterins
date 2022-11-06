@@ -15,9 +15,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MultitonDesignPattern", "Mu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultitonConsoleApp", "MultitonConsoleApp\MultitonConsoleApp.csproj", "{FA1C1C7B-BEDD-45CA-B317-26AA8D9CD476}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FactoryMethodDesignPattern", "FactoryMethodDesignPattern", "{68D2798B-D9EF-463A-BDC5-D241F098CC9C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FactoryDesignPattern", "FactoryDesignPattern", "{68D2798B-D9EF-463A-BDC5-D241F098CC9C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodConsoleApp", "FactoryMethodConsoleApp\FactoryMethodConsoleApp.csproj", "{162B338A-BA16-4632-8A0C-AFFDBE0BB96A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryConsoleApp", "FactoryConsoleApp\FactoryConsoleApp.csproj", "{6ADF7B52-95D0-4CFD-8FD6-C96793C6C354}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryConsoleAppExample", "FactoryConsoleAppExample\FactoryConsoleAppExample.csproj", "{BE0E951A-E5B2-4C94-8C99-FDE04D7272AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{162B338A-BA16-4632-8A0C-AFFDBE0BB96A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{162B338A-BA16-4632-8A0C-AFFDBE0BB96A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{162B338A-BA16-4632-8A0C-AFFDBE0BB96A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ADF7B52-95D0-4CFD-8FD6-C96793C6C354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ADF7B52-95D0-4CFD-8FD6-C96793C6C354}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ADF7B52-95D0-4CFD-8FD6-C96793C6C354}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ADF7B52-95D0-4CFD-8FD6-C96793C6C354}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE0E951A-E5B2-4C94-8C99-FDE04D7272AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE0E951A-E5B2-4C94-8C99-FDE04D7272AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE0E951A-E5B2-4C94-8C99-FDE04D7272AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE0E951A-E5B2-4C94-8C99-FDE04D7272AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +67,8 @@ Global
 		{9372E6FF-7546-47B2-8953-BBB1F4BB878B} = {E685055B-F1CD-472F-ADEE-722571E84A61}
 		{FA1C1C7B-BEDD-45CA-B317-26AA8D9CD476} = {05B2FBB0-F50F-440B-A37D-C2A8674AA52C}
 		{162B338A-BA16-4632-8A0C-AFFDBE0BB96A} = {68D2798B-D9EF-463A-BDC5-D241F098CC9C}
+		{6ADF7B52-95D0-4CFD-8FD6-C96793C6C354} = {68D2798B-D9EF-463A-BDC5-D241F098CC9C}
+		{BE0E951A-E5B2-4C94-8C99-FDE04D7272AA} = {68D2798B-D9EF-463A-BDC5-D241F098CC9C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {45ADF0F2-4EC9-4C07-9F7E-88E96B03BBA9}
