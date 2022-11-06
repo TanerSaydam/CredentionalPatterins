@@ -97,6 +97,11 @@ interface IBankFactory
 #region ConcreteFactories
 class GarantiFactory : IBankFactory
 {
+    GarantiFactory() {}
+    static GarantiFactory() => _garantiFactory = new();
+    static GarantiFactory _garantiFactory;
+    static public GarantiFactory GetInstance => _garantiFactory;
+
     public IBank CreateInstance()
     {
         GarantiBank garantiBank = GarantiBank.GetInstance;
@@ -107,6 +112,10 @@ class GarantiFactory : IBankFactory
 
 class HalkBankFactory : IBankFactory
 {
+    HalkBankFactory() { }
+    static HalkBankFactory() => _halkFactory = new();
+    static HalkBankFactory _halkFactory;
+    static public HalkBankFactory GetInstance => _halkFactory;
     public IBank CreateInstance()
     {
         HalkBank bank = HalkBank.GetInstance;
@@ -117,6 +126,10 @@ class HalkBankFactory : IBankFactory
 
 class VakifBankFactory : IBankFactory
 {
+    VakifBankFactory() { }
+    static VakifBankFactory() => _vakifFactory = new();
+    static VakifBankFactory _vakifFactory;
+    static public VakifBankFactory GetInstance => _vakifFactory;
     public IBank CreateInstance()
     {
         VakifBank vakifBank = VakifBank.GetInstance;
@@ -139,9 +152,9 @@ class BankCreator
     {
         IBankFactory _bankFactory = bankType switch
         {
-            BankType.Vakifbank => new VakifBankFactory(),
-            BankType.Halkbank => new HalkBankFactory(),
-            BankType.Garanti => new GarantiFactory()
+            BankType.Vakifbank => VakifBankFactory.GetInstance,
+            BankType.Halkbank => HalkBankFactory.GetInstance,
+            BankType.Garanti => GarantiFactory.GetInstance
         };
 
         return _bankFactory.CreateInstance();
